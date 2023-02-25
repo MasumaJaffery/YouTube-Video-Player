@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Roboto, Arial, sans-serif;
 }
 nav{
     display: flex;
@@ -10,7 +11,7 @@ nav{
     width: 100%;
     background-color:#fff;
     z-index: 999;
-    box-shadow: 1px 1px 2px #000;
+  /* box-shadow: 1px 1px 2px #000; */
 }
 .fa-bars{
     padding: 20px;
@@ -22,7 +23,7 @@ img{
 }
 .search{
     background-color: #fff;
-    width: 600px;
+    width: 650px;
     height: 45px;
     border-radius: 50px;
     display: flex;
@@ -30,7 +31,7 @@ img{
     justify-content: space-between;
     padding: 0px 25px;
     margin-top: 10px;
-    border: 2px solid rgb(173, 172, 172);
+    border: 1px solid rgb(173, 172, 172);
 }
 input{
     width: 240px;
@@ -46,7 +47,7 @@ input{
     width: 60px;
     margin-right: -30px;
     border-radius: 0 20px 20px 0;
-    border: 2px solid rgb(173, 172, 172);
+    border: 1px solid rgb(173, 172, 172);
 }
 .search-btn i{
     font-size: larger;
@@ -73,7 +74,7 @@ input{
     margin-top: 8px;
     margin-left: 5px;
     background-color: #fff;
-    margin-left: 170px;
+    margin-left: 120px;
 }
 .video:hover{
     background-color: #e7e1e1;
@@ -94,11 +95,138 @@ input{
 }
 .picture img{
     border-radius: 50%;
-    width: 50px;
-    height: 48px;
+    width: 40px;
+    height: 40px;
     float: right;
     position: absolute;
-    margin-top: 8px;
+    margin-top: 10px;
     margin-right: 70px;
     margin-left: 2px;
+}
+#Video iframe{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#Video h3{
+    /*margin-top: 10px;*/
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+#Video .YT{
+    display: flex;
+}
+#Video .YT img{
+    border-radius: 50%;
+    width: 50px;
+    height: 48px;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+#Video .YT .heading{
+    display: inline; /*To Show Headings in Columns */
+}
+#Video .YT .heading h4{
+margin-top: 8px;
+margin-left: 2px;
+margin-right: 10px;
+}
+#Video .YT .heading h6{
+    margin-top: 2px;
+    margin-left: 2px;
+    color: grey; 
+}
+#Video .YT h5{
+    background-color: black;
+    color: #fff;
+    padding: 0 16px;
+    border-radius: 18px; 
+    line-height: 36px;
+    height: 36px;
+    margin-top: 8px;
+    margin-left: 14px;
+    margin-right: 10px;
+}
+#Video .YT button{
+    background-color: rgb(233, 227, 227);
+    border: none;
+    font-size: larger;
+    color: #000;
+
+}
+#Video .YT .like .fa-thumbs-down{
+    transform: scaleX(-1);
+    margin-right: 5px;
+}
+#Video .YT .like button span{
+    margin-left: 8px;
+    font-size: 1rem;
+}
+#Video .YT .like .fa-grip-lines-vertical{
+  color: rgb(134, 134, 134);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#Video .YT .like{
+    background-color: rgb(233, 227, 227);
+    color: #fff;
+    padding: 0 16px;
+    border-radius: 18px; 
+    line-height: 36px;
+    height: 36px;
+    margin-top: 8px;
+    margin-left: 170px;
+    margin-right: 0px;
+    align-content: space-between;
+}
+#Video .YT .share{
+    background-color: rgb(233, 227, 227);
+    color: #fff;
+    padding: 0 16px;
+    border-radius: 18px; 
+    line-height: 36px;
+    height: 36px;
+    margin-top: 8px;
+    margin-left: 14px;
+    margin-right: 10px;
+    align-content: space-between;
+}
+#Video .YT .share button span{
+    margin-left: 8px;
+    font-size: 1rem;
+}
+#Video .YT .clip{
+    background-color: rgb(233, 227, 227);
+    color: #fff;
+    padding: 0 16px;
+    border-radius: 18px; 
+    line-height: 36px;
+    height: 36px;
+    margin-top: 8px;
+    margin-left: 0px;
+    margin-right: 10px;
+    align-content: space-between;
+}
+#Video .YT .clip button span{
+    margin-left: 8px;
+    font-size: 1rem;
+}
+#Video .YT .dots{
+    background-color: rgb(233, 227, 227);
+    color: #fff;
+    padding: 0 16px;
+    border-radius: 50%; 
+    height: 36px;
+    width: 36px;
+    line-height: 36px;
+    margin-top: 8px;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+#Video .YT .dots i{
+    margin-left: -6px;
+    background-color: rgb(233, 227, 227);
 }
