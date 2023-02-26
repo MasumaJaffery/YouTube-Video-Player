@@ -130,12 +130,12 @@ input{
     display: inline; /*To Show Headings in Columns */
 }
 #Video .YT .heading h4{
-margin-top: 8px;
+margin-top: 6px;
 margin-left: 2px;
 margin-right: 10px;
 }
 #Video .YT .heading h6{
-    margin-top: 2px;
+    margin-top: 4px;
     margin-left: 2px;
     color: grey; 
 }
@@ -225,8 +225,48 @@ margin-right: 10px;
     margin-top: 8px;
     margin-left: 0px;
     margin-right: 10px;
-}
+} 
 #Video .YT .dots i{
     margin-left: -6px;
     background-color: rgb(233, 227, 227);
+}
+#VideoDescription{
+    width: 903px;
+    height: 52vh;
+    border-radius: 10px;
+    background-color: #e7e1e1;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#VideoDescription .Views{
+    display: flex;
+    padding: 15px;
+}
+#VideoDescription .Views .one{
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+#VideoDescription .Views .two{
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+#VideoDescription .Views .three a{
+   color: rgb(18, 134, 211);
+   font-weight: 600;
+   text-decoration: none;
+   font-size: 1rem;
+}
+#VideoDescription .description p{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 15px;
+}
+#VideoDescription .description .hashtags a{
+    margin-left: 2px;
+    color: rgb(18, 134, 211);
+    text-decoration: none;
 }
