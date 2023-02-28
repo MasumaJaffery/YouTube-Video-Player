@@ -128,6 +128,7 @@ input{
 }
 #Video .YT .heading{
     display: inline; /*To Show Headings in Columns */
+
 }
 #Video .YT .heading h4{
 margin-top: 6px;
@@ -269,4 +270,167 @@ margin-right: 10px;
     margin-left: 2px;
     color: rgb(18, 134, 211);
     text-decoration: none;
+}
+#VideoComments{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+#VideoComments .commentario{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#VideoComments .commentario .x{
+    font-weight: 500;
+    font-size: 1rem;
+} 
+#VideoComments .commentario .y{
+    margin-left: 20px;
+    border: none;
+    font-weight: 600;
+    background-color: #fff;
+    font-size: 14px;
+}
+#VideoComments .commentario .y .fa-sort{
+    margin-right: 5px;
+}
+#VideoComments .write{
+    display: flex;
+}
+#VideoComments .write img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-right: 10px;
+    margin-left: 2px;
+    margin-bottom: 10px;
+}
+#VideoComments .write .text{
+    margin-top: 2px;
+    margin-left: 60px;
+    display: visible;
+    outline: 0px solid transparent;
+    text-decoration: none;
+}
+#VideoComments .write hr{
+    width: 840px;
+    margin-top: 25px;
+    color: #000;
+    left: 95px;
+    position: absolute;
+}
+#VideoComments .submit .smile{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: large;
+    border: 0px solid transparent;
+}
+#VideoComments .submit .smile:hover{
+    background-color: rgb(233, 227, 227);
+}
+#VideoComments .submit .cancel{
+    color: #000;
+    padding: 0 15px;
+    border-radius: 18px; 
+    line-height: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 630px;
+    margin-right: 5px;
+    justify-content:center ;
+    text-align: center;
+    font-weight: 600;
+    border: 0px solid transparent;
+}
+#VideoComments .submit .cancel:hover{
+   background-color: rgb(233, 227, 227);
+}
+#VideoComments .submit .comment{
+    color: grey;
+    padding: 0 15px;
+    border-radius: 18px; 
+    line-height: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    justify-content:center ;
+    text-align: center;
+    font-weight: 600;
+    border: 0px solid transparent;
+    background-color: rgb(233, 227, 227);
+}
+
+#VideoComments .comments .user{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#VideoComments .comments .user img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-right: 10px;
+    margin-left: 2px;
+    margin-bottom: 10px;
+}
+#VideoComments .comments .user h5{
+    margin-left: 60px;
+    margin-top: 2px;
+}
+#VideoComments .comments .user h6{
+   color: grey;
+   margin-left: -50px;
+   margin-top:4px;
+}
+#VideoComments .comments .peace{
+    margin-left: 60px;
+    margin-top: -8px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+#VideoComments .comments .response .up{
+    margin-left: 60px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    font-size: medium;
+    border: 0px solid transparent;
+    margin-bottom: 10px;
+}
+#VideoComments .comments .response .up  span{
+    color: grey;
+    font-size: small;
+}
+#VideoComments .comments .response .down{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    font-size: medium;
+    border: 0px solid transparent;
+    transform: scaleX(-1);
+    margin-left: 6px;
+    margin-bottom: 10px;
+
+}
+#VideoComments .comments .response .reply{
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 0px solid transparent;
+    margin-left: 16px;
+    padding: 0 15px;
+    border-radius: 18px; 
+    line-height: 30px;
+    height: 30px;
+    color: #000;
+    font-weight: 600;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+#VideoComments .comments .response .reply:hover{
+    background-color: rgb(233, 227, 227);
 }
