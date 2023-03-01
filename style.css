@@ -160,8 +160,6 @@ margin-right: 10px;
 }
 #Video .YT .like .fa-thumbs-down{
     transform: scaleX(-1);
-    margin-right: 5px;
-
 }
 #Video .YT .like button span{
     margin-left: 8px;
@@ -211,13 +209,10 @@ margin-right: 10px;
     margin-left: 0px;
     margin-right: 10px;
     align-content: space-between;
-    
 }
 #Video .YT .clip button span{
     margin-left: 8px;
     font-size: 1rem;
-    word-wrap: none;
-
 }
 #Video .YT .dots{
     background-color: rgb(233, 227, 227);
@@ -466,6 +461,30 @@ aside .thumbnail .v{
 }
 aside .thumbnail .v .fa-circle{
     font-size: 3px;
+}
+aside .cloud{
+    margin-top: 26px;
+}
+aside .cloud .hashtag{
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    font-size: 14px;
+    height: 36px;
+    width: 60px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+aside .cloud .hashtag1{
+    padding: 10px;
+    background: rgb(230, 227, 227);
+    color: #000;
+    font-size: 14px;
+    height: 36px;
+    width: 60px;
+    border-radius: 10px;
+    margin-right: 2px;
+    margin-bottom: 10px;
 }
 #head{
     display: flex;
