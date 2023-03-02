@@ -190,7 +190,7 @@ input{
     margin-left: 2px;
 }
 #Video iframe{
-    margin-top: 20px;
+    margin-top: 80px;
     margin-left: 40px;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -552,7 +552,7 @@ aside .thumbnail .v .fa-circle{
     font-size: 3px;
 }
 aside .cloud{
-    margin-top: 26px;
+    margin-top: 85px;
 }
 aside .cloud .hashtag{
     padding: 10px;
